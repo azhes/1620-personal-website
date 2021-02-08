@@ -14,3 +14,12 @@ p {color: #b1b6d2
 
 body {color: #b1b6d2
 }
+
+.crumbs {
+    color: #F46036;
+    border: 4mm ridge #f5f3f4;
+}
+
+.crumbs {
+    font-family: 'Major Mono Display', monospace;
+}
