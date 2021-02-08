@@ -1,25 +1,28 @@
 * {
-    background-color: #171123;
+    background-color: #E5DADA;
+    font-family: 'Cutive Mono', monospace;
 }
 
-h1 {color: #F46036;
-
+h1 {
+    color: #02040F;
 }
 
-h2 {color: #5b85aa
+h2 {
+    color: #02040F
 }
 
-p {color: #b1b6d2
-}
-
-body {color: #b1b6d2
-}
-
-.crumbs {
-    color: #F46036;
-    border: 4mm ridge #f5f3f4;
+p {
+    color: #02040F
 }
 
 .crumbs {
-    font-family: 'Major Mono Display', monospace;
+    color: #002642;
+    border: 4mm ridge #E59500;
+    font-family: 'Cutive Mono', monospace;
+}
+
+#courselist {
+    color: #002642;
+    border: 4mm ridge #E59500;
+    font-family: 'Cutive Mono', monospace;
 }
