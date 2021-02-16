@@ -25,4 +25,40 @@ p {
     color: #002642;
     border: 4mm ridge #E59500;
     font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    top: 8rem
+}
+
+.crumbs {
+    width: 200px;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    position: fixed;
+}
+
+.floating1 {
+    clear: both;
+    float: right;
+    padding: 15px;
+}
+
+.floating2 {
+    clear: both;
+    float: right;
+    padding: 15px;
+}
+
+.floating3 {
+    clear: both;
+    float: left;
+    padding: 15px;
+    position: absolute;
+    top: 20rem;
+}
+.image {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 8rem;
 }
