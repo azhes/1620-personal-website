@@ -19,6 +19,25 @@ p {
     color: #002642;
     border: 4mm ridge #E59500;
     font-family: 'Cutive Mono', monospace;
+    float: left;
+}
+
+.crumbs {
+    padding: 0px;
+    text-decoration: none;
+    position: fixed;
+    z-index: 100;
+}
+
+.crumb {
+    display: inline;
+    padding: 8px;
+    text-align: center;
+    padding: 6px 8px;
+}
+
+.crumb:hover {
+    background-color: #002642;
 }
 
 #courselist {
@@ -27,14 +46,6 @@ p {
     font-family: 'Cutive Mono', monospace;
     position: absolute;
     top: 8rem
-}
-
-.crumbs {
-    width: 200px;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-    position: fixed;
 }
 
 .floating1 {
